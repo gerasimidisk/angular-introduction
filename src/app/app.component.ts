@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+
 
 @Component({
   selector: 'app-root',
@@ -9,5 +9,12 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'angular-introduction';
+  name = 'Kostas';
+
+  person = {
+    givenName: 'Kostas',
+    surName: 'Gerasimidis',
+    age: 39,
+    email: 'gerasimidisk00@gmail.com'
+  }
 }
