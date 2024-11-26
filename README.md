@@ -1,5 +1,23 @@
 # Εισαγωγή στο Angular Framework
 
+## Βήμα 3: Component Input
+ 
+- Δημιουργία interface για τα δεδομένα τύπου `Person`
+ 
+  ```bash
+  ng generate interface shared/interfaces/person
+  ```
+ 
+  ```typescript
+  export interface Person {
+    givenName: string;
+    surName: string;
+    age: number;
+    email: string;
+    address: string;
+  }
+  ```
+
 ## Βήμα 2: Δημιουργία νέου component
  
 - Δημιουργία ενός νέου component με την εντολή `ng generate component components/person-table`.
